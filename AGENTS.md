@@ -22,9 +22,12 @@ These rules apply to any work in this repository, regardless of the specific tas
 ### Editing Approach
 - Prefer editing existing files over creating new ones.
 - Don't add features, abstractions, or error handling beyond what the task requires.
-- Default to no comments in code. Only add one when the WHY is non-obvious — a hidden constraint, a subtle invariant, a workaround for a specific bug.
-- Don't create documentation files unless explicitly requested.
 
+### Coding
+- Create tests based on desired outcomes when writing code and ensure tests pass.
+- Handle errors
+- Be secure when writing code. Evaluate for OWASP top 10 vulnerabilities.
+  
 ### Environment
 - OS: Fedora Linux
 - GitHub CLI (`gh`) is available and should be used for GitHub operations (PRs, issues, checks, releases, etc.).
